@@ -1,0 +1,35 @@
+.header {
+ background-color: var(--bg-secondary);
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+}
+.header img {
+ float: left;
+ width: 8rem;
+}
+.header .information {
+ float: right;
+ text-align: right;
+}
+.header .information h4 {
+ font-weight: 400;
+}
+.header .information button {
+ background-color: var(--bg-button);
+ border: .125rem solid transparent;
+ border-radius: .3rem;
+ color: var(--clr-light);
+ padding: .2rem .5rem;
+}
+.header .information button:hover {
+ background-color: var(--bg-button-hover);
+}
+.header .information button:active {
+ background-color: var(--bg-button);
+}
+
+@media screen and (min-width:768px) {
+ .header img {
+  width: 10rem;
+ }
+}

@@ -1,0 +1,23 @@
+.projects {
+ background-color: var(--bg-primary);
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+}
+.gallery {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 1.5rem 1rem;
+ margin-top: 2rem;
+}
+.gallery img {
+ width: 100%;
+}
+.project-title {
+ margin-top: .4rem;
+}
+
+@media screen and (min-width:768px) {
+ .gallery {
+  grid-template-columns: repeat(3, 1fr);
+ }
+}

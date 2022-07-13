@@ -1,0 +1,35 @@
+:root {
+ --bg-primary: #eee;
+ --bg-secondary: #ccc;
+ --bg-button: #17a2b8;
+ --bg-button-hover: #17a2c8;
+ --bg-nav: #6c757d;
+ --bg-nav-hover: #7c848d;
+ --clr-primary: #212121;
+ --clr-light: #fff;
+}
+body {
+ color: var(--clr-primary);
+}
+/*
+================
+Global Classes
+================
+*/
+.section-title h1 {
+ width: max-content;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 2.5rem;
+ text-transform: uppercase;
+ position: relative;
+}
+.section-title h1::after {
+ content: '';
+ background-color: #17a2b8;
+ position: absolute;
+ bottom: -.3rem;
+ left: 0;
+ width: 5rem;
+ height: .4rem;
+}

@@ -1,0 +1,26 @@
+.nav {
+ clear: both;
+ padding-top: 1rem;
+ width: 100%;
+}
+.nav ul {
+ background-color: var(--bg-nav);
+ border-radius: .3rem;
+ list-style-type: none;
+ margin: 0 auto;
+ padding: .3rem .5rem;
+}
+.nav ul li {
+ display: inline-block;
+}
+.nav ul li a {
+ color: var(--clr-light);
+ padding: .2rem .5rem;
+ text-decoration: none;
+}
+.nav ul li a:hover {
+ background-color: var(--bg-nav-hover);
+}
+.nav ul li a:active {
+ background-color: var(--bg-nav);
+}
